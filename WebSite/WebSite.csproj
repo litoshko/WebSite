@@ -204,6 +204,10 @@
     <Compile Include="Migrations\201412291500269_RemoveEmailToUser.Designer.cs">
       <DependentUpon>201412291500269_RemoveEmailToUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201501051429485_EditCarModel.cs" />
+    <Compile Include="Migrations\201501051429485_EditCarModel.Designer.cs">
+      <DependentUpon>201501051429485_EditCarModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Car.cs" />
@@ -355,6 +359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201412291500269_RemoveEmailToUser.resx">
       <DependentUpon>201412291500269_RemoveEmailToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501051429485_EditCarModel.resx">
+      <DependentUpon>201501051429485_EditCarModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
